@@ -1,0 +1,15 @@
+        react (vite)        next.js
+        library             framework
+
+routing: react-router-dom   folder router
+render : csr(browser render) ssr server side render
+SEO    : manual              automatic
+backend: node,spring,python  with backend
+
+
+d:
+ projects:
+   MERN:
+     cmd
+     npx create-next-app@latest shop
+
