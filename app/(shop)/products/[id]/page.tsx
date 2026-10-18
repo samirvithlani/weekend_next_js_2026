@@ -1,3 +1,4 @@
+import BackButton from "@/components/BackButton"
 import { getProductById } from "@/lib/products"
 
 export default async function ProductDetailPage({params}:{params:Promise<{id:string}>}){
@@ -7,6 +8,7 @@ export default async function ProductDetailPage({params}:{params:Promise<{id:str
     return(
         <main className="p-8">
             <h1 className="mt-4 text-3xl font-bold">{foundProduct?.name}</h1>
+            <BackButton/>
         </main>
     )
 }
