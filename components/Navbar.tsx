@@ -1,13 +1,14 @@
 import Link from "next/link";
+import NavLink from "./NavLink";
 
 export default function Navbar(){
 
     return(
         <nav className="flex gap-4 bg-gray-600 p-4 text-white">
-            <Link href="/">HOME</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contactus">Contact</Link>
-            <Link href="/products">Products</Link>
+            <NavLink href="/">HOME</NavLink>
+            <NavLink href="/about">About</NavLink>
+            <NavLink href="/contactus">Contact</NavLink>
+            <NavLink href="/products">Products</NavLink>
         </nav>
     )
 }
