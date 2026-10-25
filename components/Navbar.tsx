@@ -10,6 +10,9 @@ export default function Navbar(){
             <NavLink href="/contactus">Contact</NavLink>
             <NavLink href="/products">Products</NavLink>
             <NavLink href="/users">Users</NavLink>
+            <NavLink href="/demo/static">static</NavLink>
+            <NavLink href="/demo/dynamic">dynamic</NavLink>
+            <NavLink href="/demo/isr">ISR</NavLink>
         </nav>
     )
 }
