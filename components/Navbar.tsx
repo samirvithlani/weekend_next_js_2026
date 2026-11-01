@@ -13,6 +13,7 @@ export default function Navbar(){
             <NavLink href="/demo/static">static</NavLink>
             <NavLink href="/demo/dynamic">dynamic</NavLink>
             <NavLink href="/demo/isr">ISR</NavLink>
+            <NavLink href="/demo/db">DB</NavLink>
         </nav>
     )
 }
