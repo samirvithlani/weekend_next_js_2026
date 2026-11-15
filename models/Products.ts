@@ -9,6 +9,10 @@ const productSchema = new Schema({
     },
     price: {
         type: Number
+    },
+    categoryId:{
+        type:mongoose.Types.ObjectId,
+        ref:"category"
     }
 }, { timestamps: true })
 export type ProductDoc = InferSchemaType<typeof productSchema>;
