@@ -13,3 +13,13 @@ d:
      cmd
      npx create-next-app@latest shop
 
+
+
+user-f:
+register:
+  password encrypt:
+  bcrypt
+  bcryptjs
+  jose
+login-f:
+loign api
